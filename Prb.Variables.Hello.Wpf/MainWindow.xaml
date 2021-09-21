@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prb.Variabelen01.WPF"
         mc:Ignorable="d"
-        Title="Cursus variabelen 01" Height="450" Width="800">
+        Title="Cursusvoorbeeld variabelen" Height="450" Width="800">
     <Grid>
         <Label Content="Vul je naam in" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TxtUsername_TextChanged"/>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TxtUserName_TextChanged"/>
         <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="120" Click="BtnOK_Click"/>
-        <Label x:Name="lblHoofdletters" Content="Uppercase" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblUpperCase" Content="Uppercase" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblFeedback" Content="Feedback" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top"/>
 
     </Grid>
